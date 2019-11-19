@@ -20,6 +20,8 @@ html,body{
 	background:#000000;
 	color:#ffffff;
  	position: fixed;
+ 	/* ¶‚Ì30%‚®‚ç‚¢‚ğƒƒjƒ…[‚É */
+ 	width:30%;
  	/*Šî€‚ğ‰æ–Ê‚Ì¶ã‚É*/
 	top: 0;
 	left: 0;
