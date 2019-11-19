@@ -8,6 +8,7 @@ html,body{
 	box-sizing:border-box;
 }
 
+
 .split-box{
 	position:absolute;
 	width:70%;
@@ -16,6 +17,7 @@ html,body{
 }
 
 .left-box {
+	z-index: 1; 
 	left:0;
 	background:#000000;
 	color:#ffffff;
@@ -66,12 +68,13 @@ html, body{
 }
 
 .top_bg{
+	z-index: 2; 
   background: url(https://gakumado.mynavi.jp/system/production/image/image/000/112/618/112618/wysiwyg_cb393259918ed15b09d7.jpg);
   no-repeat center;
 	background-size: cover;
 	position: relative;
 	height:100%;
-  overflow: auto;
+  	overflow: auto;
 }
 
 .top_bg::before{
