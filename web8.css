@@ -292,6 +292,7 @@ html, body{
   visibility: hidden;
 }
 
+/* Musicの選択 */
 #accordion input[type="checkbox"] + ul li {
   float: left;
   width: 49%;
@@ -333,7 +334,8 @@ html, body{
   position: relative;
   background: none;
   line-height: 1;
-  height: 20px;
+  /* ここ文字半分ぐらい隠れて見にくかったからパラメータ変える */
+  height: 60px;
   padding: 1.3em 0px 1em 10px;
   font-size: 14px;
 }
